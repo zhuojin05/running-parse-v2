@@ -1,0 +1,33 @@
+[project]
+name = "parse-v2"
+version = "0.1.0"
+description = "Fast, batch-capable local runner for ParSe v2 protein phase separation predictions"
+readme = "README.md"
+authors = [
+    { name = "Zhuo", email = "zhuojin675@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "click>=8.1.0",
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "pyarrow>=14.0.0",
+    "rich>=13.0.0",
+]
+
+[project.scripts]
+parse-v2 = "parse_v2.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.9.28,<0.10.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
