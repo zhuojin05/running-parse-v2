@@ -1,0 +1,2 @@
+protein_id,sequence_length,sum_p_dist_raw,sum_p_dist_delta_h,sum_p_dist_csat,num_phase_separating_domains,num_disordered_domains,num_folded_domains
+Munc13-1,1703,110.114,4960.065,1800.998,2,4,11

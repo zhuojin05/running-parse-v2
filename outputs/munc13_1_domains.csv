@@ -1,0 +1,18 @@
+region_id,domain_type_code,classification,start_residue,end_residue,length_residues,structural_annotation
+1,F,Folded (F),1,164,164,C2A domain core
+2,F,Folded (F),166,186,21,C2A C-terminal extension
+3,P,Phase-Separating (PS),200,220,21,Phase-separating regulatory linker segment 1
+4,P,Phase-Separating (PS),221,239,19,Phase-separating regulatory linker segment 2
+5,D,Intrinsically Disordered (ID),270,297,28,Acidic/basic flexible linker segment
+6,D,Intrinsically Disordered (ID),310,366,57,Charged disordered regulatory loop
+7,D,Intrinsically Disordered (ID),368,448,81,Proline-rich extended disordered linker
+8,F,Folded (F),449,467,19,C1 domain transition helix
+9,F,Folded (F),474,611,138,C1 diacylglycerol-binding domain
+10,F,Folded (F),621,664,44,C2B domain module 1
+11,F,Folded (F),665,686,22,C2B domain module 2
+12,F,Folded (F),708,754,47,C2B - MUN junction
+13,F,Folded (F),756,1037,282,MUN priming domain (subdomains NF / MC1)
+14,F,Folded (F),1038,1443,406,MUN priming domain (subdomains MC2 / CC)
+15,F,Folded (F),1445,1590,146,MUN - C2C linker
+16,F,Folded (F),1600,1681,82,C2C domain
+17,D,Intrinsically Disordered (ID),1682,1703,22,C-terminal disordered tail
