@@ -25,7 +25,7 @@ This repository uses [`uv`](https://docs.astral.sh/uv/) for instant environment 
 
 ### Clone and Sync
 ```bash
-git clone https://github.com/your-username/running-parse-v2.git
+git clone https://github.com/zhuojin05/running-parse-v2.git
 cd running-parse-v2
 
 # Install dependencies and sync virtual environment
